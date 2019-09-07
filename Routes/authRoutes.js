@@ -13,4 +13,8 @@ module.exports = (app)=>{
         passport.authenticate('google')
     );
 
+    app.get('/', (req, res)=>{
+        res.send({Hi:"this is me",});
+    });
+
 };
