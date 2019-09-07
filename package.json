@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "node index.js"
-
   },
   "author": "Yonatan",
   "license": "ISC",

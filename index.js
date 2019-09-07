@@ -7,4 +7,5 @@ app.get('/', (req, res) =>{
         name:'Yonatan'});
 });
 
-app.listen(5000);
+const PORT = process.env.PORT;
+app.listen(PORT);
