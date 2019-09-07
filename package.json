@@ -4,15 +4,19 @@
   "description": "antivaxxi backend",
   "main": "index.js",
   "engines": {
-    "node":"12.9.0",
-    "npm":"6.11.2"
+    "node": "12.9.0",
+    "npm": "6.11.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Yonatan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
